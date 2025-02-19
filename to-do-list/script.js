@@ -36,7 +36,7 @@ document.querySelector('#add-to-list-btn').addEventListener('click', function(){
             
             if(checkBox.checked){
                 listElement.style.textDecoration = 'line-through';
-            }else listElement.style.textDecoration = 'line-through';
+            }else listElement.style.textDecoration = 'none';
         })
         deleteBtn.addEventListener('click', function(){
             divElement.style.display = 'none';
