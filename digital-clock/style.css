@@ -1,0 +1,22 @@
+body{
+    background-image: url('pics/wp4985004.jpg');
+}
+.main-div{
+    margin:100px;
+ 
+}
+.time-div{
+    /*display:grid;
+    grid-template-columns: 80px 80px 80px;
+    justify-content: space-between; */
+    display:flex;
+    
+}
+.hours-div,
+.minuites-div,
+.seconds-div{
+    background-color: slateblue;
+}
+.hours-words{
+    background-color: blueviolet;
+}
