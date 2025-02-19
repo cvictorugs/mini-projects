@@ -11,7 +11,8 @@ document.querySelector('#add-to-list-btn').addEventListener('click', function(){
         const deleteBtn = document.createElement('button');
         deleteBtn.setAttribute('class','delete-btn')
         deleteBtn.textContent = 'Remove from list'
-        // deleteBtn.setAttribute('onclick','deleteBtn()'); why we can't use this?? 
+        // deleteBtn.setAttribute('onclick', deleteBtn()); 
+        // why we can't use this?? 
 
         const divElement = document.createElement('div');
         divElement.setAttribute('class', 'div-element');
