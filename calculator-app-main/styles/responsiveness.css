@@ -1,0 +1,20 @@
+/* iphone SE ........................*/
+@media (max-width:375px) {
+
+
+    #theme-toggle li{
+        margin: 0 .5rem;
+        
+    }
+    .container{
+        /* display: block; */
+        /* place-items: none; */
+    }
+
+    .calculator{
+        background-color: gray;
+        width: 100%;
+    }
+}
+
+/* ................................... */

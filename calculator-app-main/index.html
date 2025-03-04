@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/style.css"> 
+  <link rel="stylesheet" href="./styles/responsiveness.css"> 
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <section class="status-bar">
+        <div class="logo">calc</div>
+        <div class="theme-ctn">
+          <div>THEME</div>
+          <div id="theme-toggle">
+            <!-- <div id="theme-level"> -->
+              <ul>
+                <li>1</li>2<li>3</li>
+              </ul>
+              <div id="theme-switch">
+                <div id="circle">
+                  <!-- buttons inherit backgroundColor of parent -->
+                  <button id="circle-1"></button>
+                  <button id="circle-2"></button>
+                  <button id="circle-3"></button>
+                </div>
+              </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </section>
+      <section class="output">
+        <input id="calc-screen" type="text">
+        <!-- displayed on the screen -->
+      </section>
+      <section class="key-pads-ctn">
+        <div class="input">
+
+          <button class="key-pads">7</button>
+          <button class="key-pads">8</button>
+          <button class="key-pads">9</button>
+          <button id="delete-btn">DEL</button>
+          <button class="key-pads">4</button>
+          <button class="key-pads">5</button>
+          <button class="key-pads">6</button>
+          <button class="key-pads">+</button>
+          <button class="key-pads">1</button>
+          <button class="key-pads">2</button>
+          <button class="key-pads">3</button>
+          <button class="key-pads">-</button>
+          <button class="key-pads">.</button>
+          <button class="key-pads">0</button>
+          <button class="key-pads">/</button>
+          <button class="key-pads">x</button> 
+        </div>
+        <div class="sub">
+          <button id="reset-btn" onclick="resetCalc()">RESET</button>
+          <button id="equals-btn">=</button> 
+        </div>
+      </section>
+      
+
+    </div>
+  </div>
+
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="./script.js"></script>
+</body>
+</html>
